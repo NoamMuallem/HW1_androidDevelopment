@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NoamMuallem_HW1</string>
+    <string name="welcom">welcome</string>
+    <string name="start_btn">start</string>
+    <string name="attak1">attak1</string>
+    <string name="attak2">attak2</string>
+    <string name="attak3">attak3</string>
+</resources>
