@@ -96,6 +96,12 @@ public class Activity_Game extends AppCompatActivity {
      *               presenting a winning massage
      */
     private void gameEnds(int winner){
+
+        for (int i = 0 ; i < attackButtons.length ; i++){
+            for(int j = 0 ; j < attackButtons[i].length ; j++ ){
+                attackButtons[i][j].setEnabled(false);
+            }
+        }
         AlertDialog alertDialog = new AlertDialog.Builder(Activity_Game.this).create();
         alertDialog.setTitle("game over!");
         alertDialog.setMessage("congratulation player " +winner);
